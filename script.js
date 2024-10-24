@@ -51,6 +51,6 @@ document.getElementById('loadMoreButton').addEventListener('click', () => {
 document.getElementById('hideButton').addEventListener('click', () => {
     currentPage = 1; 
     displayTransactions(currentPage);
-    document.getElementById('hideButton').style.display = 'none'; // Скрываем кнопку
-    document.getElementById('loadMoreButton').style.display = 'block'; // Показываем кнопку загрузки
+    document.getElementById('hideButton').style.display = 'none'; 
+    document.getElementById('loadMoreButton').style.display = 'block'; 
 });
